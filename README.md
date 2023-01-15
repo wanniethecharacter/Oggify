@@ -34,8 +34,8 @@ Example
 A common usage follows:
 
 You have your audio files stored in a meticulously organized directory,
-`~/music/flacs`. You want to convert these to MP3 so they will work on the music
-player you got for Christmas. So you run:
+`~/music/flacs`. You want to convert these to MP3 so they will work on all MP3
+players. So you run:
 
     oggify -o mp3 ~/music/flacs ~/music/mp3s
 
@@ -50,7 +50,7 @@ get that update in your MP3 files. So you run:
 
     oggify -o mp3 -r ~/music/flacs ~/music/mp3s
 
-You've downloaded some MP3's and are afraid that the RIAA is coming to get you,
+You've downloaded some MP3s and are afraid that the RIAA is coming to get you,
 so you want your MP3 directory to be identical to your FLAC directory. You run:
 
     oggify -o mp3 -P ~/music/flacs ~/music/mp3s
@@ -94,7 +94,7 @@ For a new destination format:
  1. A command-line that encodes a file from stdin
 
  2. A way to relate a quality switch on the scale of 0-10 to something
-    meaningful for this program. With VBR based MP3's with lame this is: 5 =>
+    meaningful for this program. With VBR based MP3s with lame this is: 5 =>
     --preset medium
 
 
@@ -109,7 +109,7 @@ Installing From Source
 Reporting Bugs
 --------------
 
-Report issues via github. Please run oggify with -v and send the output starting with the previous "encoding ... to ..." line and down through the Python error.
+Report issues via GitHub. Please run oggify with -v and send the output starting with the previous "encoding ... to ..." line and down through the Python error.
 
 Legal Stuff
 -----------
